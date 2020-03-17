@@ -1,0 +1,254 @@
+<div class="container-fluid">
+   <div class="row page-title align-items-center">
+  <div class="col-sm-4 col-xl-6">
+            <a href="javascript: void(0);" routerLink="/empresas" >
+            <i class="uil uil-arrow-left"></i> Atras
+          </a>
+    </div>
+  </div>
+  <div class="row">
+
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="row input-space">
+              <div class="col-lg-8 " >
+                <h4>Datos Generales</h4>
+              </div>
+               
+              <div class="col-lg-3">
+              </div>
+              <div class="col-lg-1">
+              </div>
+          </div>
+        <hr>
+          <ngb-tabset type="pills" justify="justified" class="navtab-bg nav-justified">
+            <ngb-tab title="Datos Generales">
+              <ng-template ngbTabContent class="nav-item">
+                <div class="row input-space">
+                  <div class="col-lg-8 align-items-right" >
+                  </div>
+                   
+                    <div class="col-lg-3">
+                        <a href="javascript: void(0);" routerLink="nueva-empresa" class="btn btn-primary btn-large float-right">
+                          Siguiente
+                        </a>
+                         <div class="col-lg-1">
+                    </div>
+                    </div>
+                </div> 
+                <div class="row input-space">
+                  <div class="col-lg-4 align-items-right" >
+                    Nombre
+                  </div>
+                    <div class="col-lg-6">
+                       <input type="text" class="form-control" id="nombre_empresa"
+                                            placeholder="Nombre de la empresa">
+                    </div>
+                    <div class="col-lg-2">
+                     
+                    </div>
+                </div> 
+                <div class="row input-space">
+                  <div class="col-lg-4 align-items-right" >
+                    Razón Social
+                  </div>
+                    <div class="col-lg-6">
+                       <input type="text" class="form-control" id="razon_social"
+                                            placeholder="Razón Social">
+                    </div>
+                    <div class="col-lg-2">
+                     
+                    </div>
+                </div> 
+                <div class="row input-space">
+                  <div class="col-lg-4 align-items-right" >
+                    RFC
+                  </div>
+                    <div class="col-lg-6">
+                       <input type="text" class="form-control" id="rfc_empresa"
+                                            placeholder="RFC">
+                    </div>
+                    <div class="col-lg-2">
+                     
+                    </div>
+                </div> 
+                <div class="row input-space">
+                  <div class="col-lg-4 align-items-right" >
+                    Calle y número
+                  </div>
+                    <div class="col-lg-6">
+                       <input type="text" class="form-control" id="calle_numero"
+                                            placeholder="Calle y número">
+                    </div>
+                    <div class="col-lg-2">
+                     
+                    </div>
+                </div> 
+                <div class="row input-space">
+                  <div class="col-lg-4 align-items-right" >
+                    Colonia
+                  </div>
+                    <div class="col-lg-6">
+                       <input type="text" class="form-control" id="colonia"
+                                            placeholder="Colonia">
+                    </div>
+                    <div class="col-lg-2">
+                     
+                    </div>
+                </div>
+                <div class="row input-space">
+                  <div class="col-lg-4 align-items-right" >
+                    Municipio
+                  </div>
+                    <div class="col-lg-6">
+                       <input type="text" class="form-control" id="municipio"
+                                            placeholder="Municipio">
+                    </div>
+                    <div class="col-lg-2">
+                     
+                    </div>
+                </div> 
+                <div class="row input-space">
+                  <div class="col-lg-4 align-items-right" >
+                    CP
+                  </div>
+                    <div class="col-lg-6">
+                       <input type="text" class="form-control" id="cp_empresa"
+                                            placeholder="Código postal">
+                    </div>
+                    <div class="col-lg-2">
+                     
+                    </div>
+                </div>
+                <div class="row input-space">
+                  <div class="col-lg-4 align-items-right" >
+                    Teléfono
+                  </div>
+                    <div class="col-lg-6">
+                       <input type="text" class="form-control" id="telefono"
+                                            placeholder="Teléfono">
+                    </div>
+                    <div class="col-lg-2">
+                     
+                    </div>
+                </div>
+                <div class="row input-space">
+                  <div class="col-lg-4 align-items-right" >
+                    Email
+                  </div>
+                    <div class="col-lg-6">
+                       <input type="text" class="form-control" id="correo"
+                                            placeholder="Email de contacto">
+                    </div>
+                    <div class="col-lg-2">
+                     
+                    </div>
+                </div> 
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab title="Lineas de negocio" class="nav nav-pills navtab-bg">
+              <ng-template ngbTabContent class="nav-item">
+                <div class="row input-space">
+                  <div class="col-lg-1" >
+                    Línea de negocio
+                  </div>
+                    <div class="col-lg-4">
+                       <input type="text" class="form-control" id="correo"
+                                            placeholder="Email de contacto">
+                    </div>
+                    <div class="col-lg-1">
+                     Líder
+                    </div>
+                    <div class="col-lg-4">
+                       <input type="text" class="form-control" id="correo"
+                                            placeholder="Email de contacto">
+                    </div>
+                    <div class="col-lg-2">
+                      <a href="javascript: void(0);" routerLink="nueva-empresa" class="btn btn-primary btn-large ">
+                      Agregar
+                    </a>
+                    </div>
+                </div>
+                <div class="table-responsive mt-4">
+                  <table class="table table-hover table-nowrap mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">Línea de negocio</th>
+                        <th scope="col">Lider</th>
+                        <th scope="col">Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let table of ordersData">
+                        <td>{{ table.linea }}</td>
+                        <td>{{ table.product }}</td>
+                        <td><span class="badge py-1" [ngClass]="{
+                                              'badge-soft-warning': table.status === 'Pending',
+                                              'badge-soft-success': table.status === 'Delivered',  
+                                              'badge-soft-danger': table.status === 'Declined'  
+                                          }">{{ table.status }}</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div> 
+              </ng-template>
+            </ngb-tab>
+            <ngb-tab title="Tipo de negocio" class="nav nav-pills navtab-bg">
+              <ng-template ngbTabContent class="nav-item">
+                
+                <div class="row input-space">
+                  <div class="col-lg-1" >
+                    Línea de negocio
+                  </div>
+                    <div class="col-lg-4">
+                       <input type="text" class="form-control" id="correo"
+                                            placeholder="Email de contacto">
+                    </div>
+                    <div class="col-lg-1">
+                     Tipo de servicio
+                    </div>
+                    <div class="col-lg-4">
+                       <input type="text" class="form-control" id="correo"
+                                            placeholder="Email de contacto">
+                    </div>
+                    <div class="col-lg-2">
+                      <a href="javascript: void(0);" routerLink="nueva-empresa" class="btn btn-primary btn-large ">
+                      Agregar
+                    </a>
+                    </div>
+                </div>
+                <div class="table-responsive mt-4">
+                  <table class="table table-hover table-nowrap mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">Línea de negocio</th>
+                        <th scope="col">Tipod de servicio</th>
+                        <th scope="col">Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let table of ordersData">
+                        <td>{{ table.linea }}</td>
+                        <td>{{ table.product }}</td>
+                        <td><span class="badge py-1" [ngClass]="{
+                                              'badge-soft-warning': table.status === 'Pending',
+                                              'badge-soft-success': table.status === 'Delivered',  
+                                              'badge-soft-danger': table.status === 'Declined'  
+                                          }">{{ table.status }}</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div> 
+              </ng-template>
+            </ngb-tab>
+            
+            <ngb-tab  class="nav nav-pills navtab-bg">
+                Siguiente  
+            </ngb-tab>
+          </ngb-tabset>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
